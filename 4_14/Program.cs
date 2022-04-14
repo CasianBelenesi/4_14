@@ -46,6 +46,17 @@ namespace _4_14
                 mc.Increment();
                 Console.WriteLine(mc);
             }
+
+            MultiCounter multicounter = new MultiCounter(4, 10);
+            for (int i = 0; i < 1500; i++)
+            {
+                multicounter.Increment();
+                Console.WriteLine(multicounter)
+                
+            }
+
         }
+    }
+    }
     }
 }
